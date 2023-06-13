@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La casa del Asador</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <header class="encabezado">
+            <div class="contenedor-nav">
+                <div class="contenido-nav contenedor">
+                    <div class="logo">
+                        <h2>La <span class="light-grey">casa</span> del <span class="light-grey">Asador</span></h2>
+                    </div>
+                    <nav class="menu-nav ocultar">
+                        <a href="#">Inicio</a>
+                        <a href="./pages/nosotros.html">Sobre Nosotros</a>
+                        <a href="#menu">Menú</a>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </nav>
+                    <div class="hamburguesa">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-header">
+                <div class="contenedor-encabezado">
+                    <div class="btn-encabezado">
+                        <a class="btn bordes" href="#Inicio">Ingresar</a>
+                    </div>
+                    <video autoplay loop muted>
+                        <source src="./media/background-video.mp4">
+                    </video>
+                </div>
+            </div>
+        </header>
+
+        <div id="Inicio" class="contenedor-nosotros">
+            <div class="texto-nosotros">
+                <p class="bienvenida">Bienvenidos a</p>
+                <h1>La casa del Asador</h1>
+                <p> Es un placer darles la bienvenida a "La casa del Asador" y el poder compartir con ustedes nuestra pasión por la comida a la parrilla. En este espacio podrán disfrutar de los sabores y aromas únicos que solo una buena parrilla puede ofrecer.</p>
+                <p>Esperamos que disfruten de su tiempo en nuestro local y que sientan que han encontrado un lugar al que querrán volver una y otra vez. ¡Buen provecho!</p>
+                <a class="btn btn-grey" href="./pages/nosotros.html">Mas información</a>
+            </div>
+            <div class="imagenes-nosotros">
+                <div class="imagen1">
+                    <img data-src="./images/asador.jpg" alt="Chef asador">
+                </div>
+                <div class="imagenes2">
+                    <img data-src="./images/carne.jpg" alt="corte de carne">
+                    <img data-src="./images/parrillada.jpg" alt="Parrillada">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section id="menu" class="menu contenedor">
+            <h2 class="texto-menu">Nuestro Menú</h2>
+            <div class="botones-menu">
+                <button class="todos btn btn-grey">Todos</button>
+                <button class="entradas btn btn-grey">Entradas</button>
+                <button class="parrillada btn btn-grey">Parillada</button>
+                <button class="nuestraCocina btn btn-grey">Nuestra cocina</button>
+                <button class="ensaladas btn btn-grey">Ensaladas</button>
+                <button class="postres btn btn-grey">Postres</button>
+            </div>
+            <div class="platillos">
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Empanada-de-Carne-.jpg" alt="Empanada de carne">
+                    <h2>Empanada de Carne</h2>
+                    <div class="precio">
+                        <p>$400</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Empanada-jyq.jpg" alt="Empanada de Jamon y queso">
+                    <h2>Empanada de jamón y queso</h2>
+                    <div class="precio">
+                        <p>$400</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Chorizo.jpg" alt="Chorizo">
+                    <h2>Chorizo</h2>
+                    <div class="precio">
+                        <p>$950</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Morcilla.jpg" alt="Morcilla">
+                    <h2>Morcilla</h2>
+                    <div class="precio">
+                        <p>$950</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Chinculines-de-ternera.jpg" alt="Chinchulines de ternera">
+                    <h2>Chinchulines de ternera</h2>
+                    <div class="precio">
+                        <p>$1500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Mollejas-de-corazon.jpg" alt="Mollejas de corazón">
+                    <h2>Mollejas de corazón</h2>
+                    <div class="precio">
+                        <p>$4650</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Provoleta-al-oreganato.jpg" alt="Provoleta al oreganato">
+                    <h2>Provoleta al oreganato</h2>
+                    <div class="precio">
+                        <p>$1700</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="entradas">
+                    <img data-src="./images/Achuras.jpg" alt="Achuras">
+                    <h2>Selección de Achuras</h2>
+                    <div class="precio">
+                        <p>$5500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Bife-de-lomo.jpg" alt="Bife de lomo">
+                    <h2>Bife de lomo</h2>
+                    <div class="precio">
+                        <p>$5500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Asado-de-Tira.jpg" alt="Asado de Tira">
+                    <h2>Asado de Tira</h2>
+                    <div class="precio">
+                        <p>$5700</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Bondiola-de-cerdo.jpg" alt="Bondiola de cerdo">
+                    <h2>Bondiola de cerdo</h2>
+                    <div class="precio">
+                        <p>$3450</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Brochette-de-Lomo-y-Pollo.jpg" alt="Brochette de Lomo y Pollo">
+                    <h2>Brochette de Lomo y Pollo</h2>
+                    <div class="precio">
+                        <p>$4550</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Brochette-de-Lomo.jpg" alt="Brochette de Lomo">
+                    <h2>Brochette de Lomo</h2>
+                    <div class="precio">
+                        <p>$5550</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Brochette-de-Pollo.jpg" alt="Brochette de Pollo">
+                    <h2>Brochette de Pollo</h2>
+                    <div class="precio">
+                        <p>$3250</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Colita-de-cuadril-entera.jpg" alt="Colita de cuadril">
+                    <h2>Colita de cuadril entera mariposa</h2>
+                    <div class="precio">
+                        <p>$6570</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Matambrito-de-cerdo.jpg" alt="Matambrito de cerdo">
+                    <h2>Matambrito de cerdo</h2>
+                    <div class="precio">
+                        <p>$3900</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/ojo-bife-especial.jpg" alt="ojo de bife especial">
+                    <h2>Ojo de Bife especial</h2>
+                    <div class="precio">
+                        <p>$5650</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Pechuga-de-Pollo.jpg" alt="Pechuga de Pollo">
+                    <h2>Pechuga de Pollo</h2>
+                    <div class="precio">
+                        <p>$1500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Colita-de-Cuadril.jpg" alt="Porcion Colita de Cuadril">
+                    <h2>Porción Colita de Cuadril</h2>
+                    <div class="precio">
+                        <p>$4100</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Salmon-Rosado.jpg" alt="Salmon Rosado">
+                    <h2>Salmón Rosado</h2>
+                    <div class="precio">
+                        <p>$6500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Vacio-Fino.jpg" alt="Vacio Fino Entero">
+                    <h2>Vacío Fino Entero</h2>
+                    <div class="precio">
+                        <p>$7900</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="parrillada">
+                    <img data-src="./images/Entrana-entera.jpg" alt="Entraña entera">
+                    <h2>Entraña entera</h2>
+                    <div class="precio">
+                        <p>$6800</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="nuestraCocina">
+                    <img data-src="./images/Milanesa-de-Ternera.jpg" alt="Milanesa de Ternera">
+                    <h2>Milanesa de Ternera</h2>
+                    <div class="precio">
+                        <p>$2900</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="nuestraCocina">
+                    <img data-src="./images/Milanesa-de-ternera-napolitana.jpg" alt="Milanesa de Ternera Napolitana">
+                    <h2>Milanesa de Ternera Napolitana</h2>
+                    <div class="precio">
+                        <p>$3000</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="nuestraCocina">
+                    <img data-src="./images/Milanesa-de-Pollo.jpg" alt="Milanesa de Pollo">
+                    <h2>Milanesa de Pollo</h2>
+                    <div class="precio">
+                        <p>$2500</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="nuestraCocina">
+                    <img data-src="./images/Milanesa-de-Pollo-Napolitana.jpg" alt="Milanesa de Pollo Napolitana">
+                    <h2>Milanesa de Pollo Napolitana</h2>
+                    <div class="precio">
+                        <p>$3000</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="ensaladas">
+                    <img data-src="./images/Ensalada-de-Campo.jpg" alt="Ensalada de Campo">
+                    <h2>Ensalada de Campo</h2>
+                    <div class="precio">
+                        <p>$2000</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="ensaladas">
+                    <img data-src="./images/Ensalada-de-la-casa.jpg" alt="Ensalada de la casa">
+                    <h2>Ensalada "La casa del Asador"</h2>
+                    <div class="precio">
+                        <p>$2000</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="ensaladas">
+                    <img data-src="./images/ensalada-cesar.jpg" alt="Ensalada césar">
+                    <h2>Ensalada César</h2>
+                    <div class="precio">
+                        <p>$2000</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="postres">
+                    <img data-src="./images/Flan-Casero.jpg" alt="Flan Casero">
+                    <h2>Flan Casero</h2>
+                    <div class="precio">
+                        <p>$750</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+                <div class="platillo" data-platillo="postres">
+                    <img data-src="./images/queso-y-dulce.jpg" alt="queso y dulce">
+                    <h2>Queso y dulce</h2>
+                    <div class="precio">
+                        <p>$750</p>
+                        <button><i class="fa-solid fa-basket-shopping"></i></button>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="separador">
+            <div class="contenido-separador contenedor">
+                <h2>Parrilla Argentina de estilo bodegón</h2>
+                <p>Dejate llevar por el delicioso sabor de la carne a las brasas</p>
+                <a class="btn btn-grey" href="./pages/contacto.html">Reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="pie-pagina">
+            <div class="contenedor-piepagina contenedor">
+                <div class="info">
+                    <h3>Dirección</h3>
+                    <p>Av. Rivadavia 1700, CABA</p>
+                </div>
+                <div class="info">
+                    <h3>Días y Horarios</h3>
+                    <p>Lunes a Domingos 11:30 - 16:00hs. | 19:00 - 1:00 hs.</p>
+                </div>
+                <div class="info">
+                    <h3>Reservas</h3>
+                    <p>+54 1170944561</p>
+                    <p>casadelasador@gmail.com</p>
+                    <div class="redes-sociales redes-pie">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>  
+                <div class="info">
+                    <h3>Noticias</h3>
+                    <p>Suscribete para recibir más noticias</p>
+                    <input type="email" placeholder="Tú correo">
+                    <input type="submit" class="btn btn-grey" value="Suscribirse">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Todos los Derechos Reservados &copy;2023 La Casa del Asador, desarrollado por Biasi Matías.</p>
+        </footer>
+
+        
+        <script src="./scripts/script.js"></script>
+    </body>
+
+</html>
