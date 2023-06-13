@@ -19,37 +19,38 @@ Este sitio web posee las siguientes características principales:
 *Cómo contribuir*
 Si deseas contribuir al desarrollo de este sitio web puedes seguir estos pasos:
 
-Haz un fork de este repositorio en tu cuenta de GitHub.
+1) Haz un fork de este repositorio en tu cuenta de GitHub.
 
-Clona el repositorio forked en tu máquina local.
+2) Clona el repositorio forked en tu máquina local.
 
 bash
-Copy code 
+Copy code https://github.com/matiasbiasi15/Proyecto-Final.git
 git clone 
-Crea una nueva rama para realizar tus cambios.
+
+3)Crea una nueva rama para realizar tus cambios.
 
 css
-Copy code
 git checkout -b mi-rama
-Realiza las modificaciones necesarias en tu editor de código preferido.
 
-Asegúrate de probar los cambios localmente y de que todo funcione correctamente.
+4) Realiza las modificaciones necesarias en tu editor de código de preferencia.
 
-Realiza commit de tus cambios con un mensaje descriptivo.
+5) Asegúrate de probar los cambios localmente y de que todo funcione correctamente.
+
+6) Realiza commit de tus cambios con un mensaje descriptivo.
 
 sql
-Copy code
 git commit -m "Agrega página de contacto"
-Sube los cambios a tu repositorio remoto.
+
+7) Sube los cambios a tu repositorio remoto.
 
 perl
-Copy code
 git push origin mi-rama
-Abre un pull request en este repositorio original y describe tus cambios en detalle.
+
+8) Abre un pull request en este repositorio original y describe tus cambios en detalle.
 
 Una vez que tu pull request sea revisado, se considerará la posibilidad de fusionar tus cambios en el repositorio principal.
 
-Problemas y sugerencias
-Si encuentras algún problema con el sitio web del restaurante Parrilla o tienes alguna sugerencia de mejora, puedes abrir un issue en este repositorio. Asegúrate de proporcionar una descripción clara y detallada del problema o la sugerencia para que podamos abordarlo de manera eficiente.
+*Problemas y sugerencias*
+Si encuentras algún problema con este sitio web o tienes alguna sugerencia de mejora, puedes abrir un issue en este repositorio. Asegúrate de proporcionar una descripción clara y detallada del problema o la sugerencia para que pueda abordarlo de manera eficiente.
 
-¡Gracias por tu interés y contribuciones al sitio web del restaurante Parrilla!
+¡Gracias por tu interés y contribuciones a mi sitio web!
